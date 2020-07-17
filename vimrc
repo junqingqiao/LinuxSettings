@@ -46,5 +46,5 @@ let g:pymode_lint_ignore = "E501,W"
 " Add shortcut for YouCompleteMe plugin"
 let g:ycm_autoclose_preview_window_after_completion=1
 map <F1> :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
+map <F2> <C-o>
 
